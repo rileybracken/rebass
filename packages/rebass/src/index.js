@@ -7,6 +7,7 @@ export const Text = forwardRef((props, ref) =>
   <Box
     ref={ref}
     tx='text'
+    variant='heading'
     {...props}
   />
 )
